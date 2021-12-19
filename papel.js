@@ -25,7 +25,7 @@ class papel
 			//strokeWeight(4);
 			fill(255,0,255)
 			//ellipse(0,0,this.r, this.r);
-			image(this.image,0,0,this.r,this.r );
+			image(this.image,this.body.position.x,this.body.position.y,this.r,this.r );
 			pop()
 			
 	}
